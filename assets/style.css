@@ -90,9 +90,6 @@ body {
 	font-size: 14px;
 }
 
-#gallery {
-	/*	min-height: 100vh; */
-}
 .title{
 	text-align: center;
 	padding-block: 2em;
@@ -105,8 +102,12 @@ body {
 	background-color: #BEB45A;
 	border-radius:0 ;
 }
+.active-tag {
+	background-color: #BEB45A;
+}
 .nav-pills .nav-link {
-	color: #000
+	color: #000;
+	cursor:pointer;
 }
 .item-column {
 	position: relative;
